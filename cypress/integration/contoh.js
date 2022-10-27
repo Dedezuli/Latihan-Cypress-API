@@ -44,7 +44,6 @@ describe('Post Create User',()=>{
             }
        })
             .then((response) => { 
-                expect(response.status).to.be.equal(400);
 
                 expect(response.body).to.have.property('error','Missing password')
     })    
