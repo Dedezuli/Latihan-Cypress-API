@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cypress": "^9.7.0"
+  },
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:open": "npx cypress open",
+    "cypress:headless": "cypress run --headless",
+    "cy:run:record": "cypress run --record"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
